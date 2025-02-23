@@ -1,0 +1,246 @@
+body{
+    margin: 0px;
+    font-family: Roboto, Oswald, Playfair Display,sans-serif;
+    text-align: center;
+}
+
+#titel {
+    z-index: 1;
+    position: relative;
+    color: darkorange;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+#hintergrundbild {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hintergrundbild img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#last3{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    border: solid;
+    border-color: black;
+    padding: 20px;
+}
+
+.button1 {
+    background-color: black;
+    color: darkorange;
+    border: solid;
+    border-color: white;
+    margin-top: 10px;
+    font-size:  x-large;
+}
+
+.button2 {
+    background-color: black;
+    color: darkorange;
+    border: solid;
+    border-color: darkorange;
+    margin-top: 10px;
+    
+}
+
+#buttons {
+    z-index: 1;
+    top: 0px;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+#section1 {
+    z-index: 1;
+    position: relative;
+    color: darkorange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 100px;
+    margin-top: 600px;
+}
+
+#section2 {
+    z-index: 1;
+    position: relative;
+    color: darkorange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+#section3 {
+    z-index: 1;
+    position: relative;
+    color: darkorange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+#section4 {
+    z-index: 1;
+    position: relative;
+    color: darkorange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+#section5 {
+    z-index: 1;
+    position: relative;
+    color: darkorange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 100px;
+    justify-content: flex-start;
+}
+
+#formular1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border: solid 2px black;
+    width: 300px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    width: 305px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+section p {
+    max-width: 1000px;    
+    margin: 0 auto;      
+    padding: 10px;      
+    text-align: center;  
+}
+
+@media (max-width: 430px){
+    #buttons{
+        z-index: 1;
+        top: 0px;
+        position: absolute;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    #titel {
+        z-index: 1;
+        position: relative;
+        color: darkorange;
+        display: flex;
+        justify-content: center;
+        margin-top: 500px;
+        
+    }
+
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+}
+
+table tr:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+#FNCvsG2{
+    z-index: 1;
+    position: relative;
+    border:     solid;
+    border-color: white;
+    color: darkorange;
+    display: inline-block;
+    text-align: center;
+    margin-top: 60px;    
+    font-size: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#FNCvsG2 {
+    opacity: 0;
+    animation: fadeInOut 2s forwards;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0%;
+    }
+    40% {
+        opacity: 100%;
+        scale: 1.5;
+    }
+    60% {
+        opacity: 100%;
+        scale: 1.5;
+    }
+    100% {
+        opacity: 0%;
+        
+    }
+}
+
